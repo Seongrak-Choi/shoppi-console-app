@@ -17,7 +17,8 @@ class ShoppingCategory {
         }
 
         if (selectedCategory == "#") {
-            //TODO 1. 장바구니 이동
+            val shoppingCart = ShoppingCart()
+            shoppingCart.showCartItems()
         } else {
 
             if (categories.contains(selectedCategory)){
