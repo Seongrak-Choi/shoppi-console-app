@@ -10,6 +10,5 @@ object CartItems {
         } ?: kotlin.run {
             mutableProducts[product] = 1
         }
-
     }
 }
