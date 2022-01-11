@@ -4,7 +4,7 @@ object ScreenStack {
     private val screenStack = mutableListOf<Screen>()
 
     fun push(screen: Screen){
-
+        screenStack.add(screen)
     }
 
     fun pop(){
